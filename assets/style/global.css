@@ -1,5 +1,32 @@
-@import url(reset.css);
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 
-* {
-    background-color: #4467F0;
+ :root {
+  --primary-color: #EBEBFF;
+  --secondary-color :#677BE5;
+  --constract-color: #FF7375;
+  --font-thin: 100;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+}
+
+*{
+    font-family: 'Arima', cursive;
+}
+
+.fw-thin {
+  font-weight: var(--font-thin);
+}
+
+.fw-regular {
+  font-weight: var(--font-regular);
+}
+
+.fw-medium {
+  font-weight: var(--font-medium);
+}
+
+.fw-bold {
+  font-weight: var(--font-bold);
 }
